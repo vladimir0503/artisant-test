@@ -1,0 +1,75 @@
+.card {
+    width: 305px;
+    height: 482px;
+    box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.imageBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 17px 0 20px 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 289px;
+    height: 367px;
+    color: #ffffff;
+    background: url("../../../../common/images/img.jpg");
+}
+
+.createdBlock {
+    p {
+        &:nth-child(1) {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            color: #f3f3f3;
+        }
+
+        &:nth-child(2) {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+}
+
+.nameBlock {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.priceBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0 16px;
+    height: 78px;
+
+    p {
+        &:nth-child(1) {
+            font-size: 12px;
+            line-height: 24px;
+            color: #808080;
+        }
+
+        &:nth-child(2) {
+            font-weight: 600;
+            font-size: 16px;
+            color: black;
+        }
+    }
+
+    span {
+        color: blue;
+    }
+
+    div {
+        &:nth-child(2) {
+            text-align: end;
+        }
+    }
+}
