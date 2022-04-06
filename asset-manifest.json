@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/artisant-test/static/css/main.5a4f3d38.css",
-    "main.js": "/artisant-test/static/js/main.335a31a8.js",
+    "main.js": "/artisant-test/static/js/main.e2c0f0e6.js",
     "static/media/img.jpg": "/artisant-test/static/media/img.db90414850c04fe46929.jpg",
     "index.html": "/artisant-test/index.html",
     "main.5a4f3d38.css.map": "/artisant-test/static/css/main.5a4f3d38.css.map",
-    "main.335a31a8.js.map": "/artisant-test/static/js/main.335a31a8.js.map"
+    "main.e2c0f0e6.js.map": "/artisant-test/static/js/main.e2c0f0e6.js.map"
   },
   "entrypoints": [
     "static/css/main.5a4f3d38.css",
-    "static/js/main.335a31a8.js"
+    "static/js/main.e2c0f0e6.js"
   ]
 }
