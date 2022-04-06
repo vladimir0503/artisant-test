@@ -15,11 +15,14 @@ const Cards = (): JSX.Element => {
 
     const sortCards = () => {
         setAvailable(!isAvailable);
-        dispatch(sortByAvailable());
     };
 
     React.useEffect(() => {
-        if (!isAvailable) dispatch(getCards());
+        if (!isAvailable) {
+            dispatch(getCards());
+        } else {
+            dispatch(sortByAvailable());
+        };
     }, [isAvailable]);
 
     console.log(cards);
